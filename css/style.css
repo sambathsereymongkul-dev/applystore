@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  background: #111517;
+  color: white;
+}
+
+.header {
+  width: 90%;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 30px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 40px;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+}
+
+a {
+  color: gray;
+}
+nav a {
+  font: bold;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  font-size: 22px;
+}
+
+.hero {
+  width: 90%;
+  margin: auto;
+
+  min-height: 85vh;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  width: 45%;
+}
+
+.left h3 {
+  color: #bbb;
+  margin-bottom: 20px;
+}
+
+.left h1 {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
+.left p {
+  color: #999;
+  line-height: 32px;
+  width: 80%;
+}
+
+.btns {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+
+.buy {
+  padding: 18px 40px;
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.watch {
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.right img {
+  width: 700px;
+  max-width: 100%;
+}
+
+.newsletter {
+  background: #191d20;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.newsletter h1 {
+  font-size: 45px;
+  margin-bottom: 40px;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.subscribe input {
+  width: 500px;
+  padding: 18px;
+  background: black;
+  border: none;
+  color: white;
+}
+
+.subscribe button {
+  background: #5d3dfd;
+  color: white;
+  border: none;
+  padding: 18px 40px;
+  cursor: pointer;
+}
+
+.footer-grid {
+  width: 90%;
+  margin: auto;
+
+  display: grid;
+
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+
+  gap: 60px;
+
+  padding: 80px 0;
+}
+
+.footer-grid div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-grid a {
+  color: #999;
+  text-decoration: none;
+}
+
+.footer-grid p {
+  color: #999;
+  line-height: 28px;
+}
+
+/* card */
+
+
